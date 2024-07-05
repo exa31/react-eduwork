@@ -20,6 +20,7 @@ function App() {
         <p>
           Halo mas faiz
         </p>
+        <h1>Exa</h1>
       </header>
     </div>
   );
