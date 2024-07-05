@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          Halo mas faiz
+        </p>
       </header>
     </div>
   );
