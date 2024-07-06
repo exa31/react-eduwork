@@ -1,7 +1,8 @@
-function Profile() {
+function Profile({ name, age }) {
     return (
         <div>
-            <h1>My Name Exa</h1>
+            <h1>My Name {name}</h1>
+            <p>My age {age}</p>
         </div>
     );
 }
