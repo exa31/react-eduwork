@@ -16,7 +16,7 @@ function Count() {
     return (
         <div>
             <h3>Count click</h3>
-            <p>{count}</p>
+            <p className='info'>{count}</p>
             <button onClick={() => setCount(count + 1)}>Tambah (+)</button>
             <button onClick={kurang}>Tambah (-)</button>
         </div>

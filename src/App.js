@@ -1,12 +1,22 @@
-import './App.css';
-import Profile from './component';
-import Count from './component/count';
+import './index.css';
+import Contact from './component/Contact';
+import Footer from './component/Footer';
+import Home from './component/Home';
+import Navbar from './component/Navbar';
+import Portofolio from './component/Portofolio';
+import Services from './component/Services';
+import Skills from './component/Skills';
 
 function App() {
   return (
     <div className="App">
-      <Profile name={"Exa"} age={18} />
-      <Count />
+      <Navbar />
+      <Home />
+      <Services />
+      <Portofolio />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }
