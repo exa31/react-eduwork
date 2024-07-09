@@ -61,10 +61,21 @@ a {
     text-decoration: none;
 }
 
+.btnForm {
+    width: 100%;
+    position: absolute;
+    background-color: var(--primaryIconColor);
+    border: var(--borderColor);
+    color: var(--primaryBackgroundColor);
+    padding: 1rem 2rem;
+    z-index: 2000;
+}
+
 .navbar {
     position: fixed;
     z-index: 1000;
     display: flex;
+    top: 0;
     background-color: var(--primaryBackgroundColor);
     width: 100%;
     padding: .5rem 4rem;
@@ -571,3 +582,4 @@ footer p {
         padding: 0 0 2rem;
     }
 }
+
